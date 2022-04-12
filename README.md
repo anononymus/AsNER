@@ -6,10 +6,15 @@ This repository contains pre-trained model as well as dataset for Assamese NER. 
 
 Dataset has been splitted into three parts- train, dev and test which is available in the name of train.txt, dev.txt and test.txt.
 
+## Requirements
+
+* It requires python 3.6+
+* Install [Flair](https://github.com/flairNLP/flair) in your favorite virtual environment, 
+
 
 ## How to run
 
-Download the pre-trained model from the link- https://drive.google.com/file/d/1sqBxuujk9yOPcXkQTvONgQlP93qt0EJD/view?usp=sharing
+Download the pre-trained model from the link- [AsNER](https://drive.google.com/file/d/1sqBxuujk9yOPcXkQTvONgQlP93qt0EJD/view?usp=sharing)
 
 ```
 from flair.models import SequenceTagger
