@@ -9,7 +9,7 @@ Dataset has been splitted into three parts- train, dev and test which is availab
 ## Requirements
 
 * It requires python 3.6+
-* Install [Flair](https://github.com/flairNLP/flair) in your favorite virtual environment, 
+* Install [Flair](https://github.com/flairNLP/flair) preferably  in in favorite virtual environment, 
 
 
 ## How to run
