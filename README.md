@@ -1,6 +1,6 @@
 # AsNER
 
-This repository contains pre-trained model as well as dataset for Assamese NER. The model is trained using BiLSTM-CRF architecture with MuRIL embeddings. The F1-score acuracy of this model is 81.39%
+This repository contains pre-trained model as well as dataset for Assamese NER. The model is trained using BiLSTM-CRF architecture with MuRIL embeddings. The F1-score acuracy of this model is 80.69%
 
 ## Annotated Assamese NER dataset 
 
