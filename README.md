@@ -27,7 +27,6 @@ model = SequenceTagger.load('AsNER.pt')
 #  create example sentence
 sen1='দিল্লী ভাৰতৰ ৰাজধানী ।'
 sentence1 = Sentence(sen1)
-
 # predict tags and print
 model.predict(sentence1)
 print(sentence1.to_tagged_string())
@@ -35,7 +34,6 @@ print(sentence1.to_tagged_string())
 
 sen2='বিশ্ববিদ্যালয়খন গুৱাহাটী মহানগৰীৰ জালুকবাৰী অঞ্চলত অৱস্থিত ।'
 sentence2 = Sentence(sen2)
-
 # predict tags and print
 model.predict(sentence2)  
 print(sentence2.to_tagged_string())
@@ -45,7 +43,6 @@ print(sentence2.to_tagged_string())
 sen3='গুৱাহাটী বিশ্ববিদ্যালয় গুৱাহাটী মহানগৰীৰ জালুকবাৰীত অৱস্থিত ।'
 sentence3 = Sentence(sen3)
 # predict tags and print
-
 model.predict(sentence3)
 print(sentence3.to_tagged_string())
 গুৱাহাটী <ORG> বিশ্ববিদ্যালয় <ORG> গুৱাহাটী <LOC> মহানগৰীৰ <LOC> জালুকবাৰীত <LOC> অৱস্থিত ।
