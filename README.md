@@ -25,13 +25,31 @@ from flair.data import  Sentence, Token
 model = SequenceTagger.load('AsNER.pt')
 
 #  create example sentence
-sen='দিল্লী ভাৰতৰ ৰাজধানী ।'
-sentence = Sentence(sen)
+sen1='দিল্লী ভাৰতৰ ৰাজধানী ।'
+sentence1 = Sentence(sen1)
 
 # predict tags and print
-model.predict(sentence)
-print(sentence.to_tagged_string())
+model.predict(sentence1)
+print(sentence1.to_tagged_string())
 দিল্লী <LOC> ভাৰতৰ <LOC> ৰাজধানী ।
+
+sen2='বিশ্ববিদ্যালয়খন গুৱাহাটী মহানগৰীৰ জালুকবাৰী অঞ্চলত অৱস্থিত ।'
+sentence2 = Sentence(sen2)
+
+# predict tags and print
+model.predict(sentence2)  
+print(sentence2.to_tagged_string())
+বিশ্ববিদ্যালয়খন <MISC> গুৱাহাটী <LOC> মহানগৰীৰ <LOC> জালুকবাৰী <LOC> অঞ্চলত <LOC> অৱস্থিত ।
+
+
+sen3='গুৱাহাটী বিশ্ববিদ্যালয় গুৱাহাটী মহানগৰীৰ জালুকবাৰীত অৱস্থিত ।'
+sentence3 = Sentence(sen3)
+# predict tags and print
+
+model.predict(sentence3)
+print(sentence3.to_tagged_string())
+গুৱাহাটী <ORG> বিশ্ববিদ্যালয় <ORG> গুৱাহাটী <LOC> মহানগৰীৰ <LOC> জালুকবাৰীত <LOC> অৱস্থিত ।
+
 ```
 
 
