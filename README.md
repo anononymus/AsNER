@@ -31,6 +31,7 @@ sentence = Sentence(sen)
 # predict tags and print
 model.predict(sentence)
 print(sentence.to_tagged_string())
-
+দিল্লী <LOC> ভাৰতৰ <LOC> ৰাজধানী ।
+```
 
 
