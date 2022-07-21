@@ -49,33 +49,20 @@ print(sentence3.to_tagged_string())
 
 ```
 
-### If you use our code or dataset, please cite [this paper]([http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.706.pdf]): 
+### If you use our code or dataset, please cite [this paper][http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.706.pdf]: 
 
 ```
-     
-  @article{pathak2022reduplication,
-  title={Reduplication in Assamese: Identification and Modeling},
-  author={Pathak, Dhrubajyoti and Nandi, Sukumar and Sarmah, Priyankoo},
-  journal={Transactions on Asian and Low-Resource Language Information Processing},
-  volume={21},
-  number={5},
-  pages={1--18},
-  articleno = {90},
-  year={2022},
-  issue_date = {September 2022},
-  publisher={ACM New York, NY}
-  url = {https://doi.org/10.1145/3510419},
-  doi = {10.1145/3510419},
-}
-
-```
-@InProceedings{pathak2022asner,
+  @InProceedings{pathak2022asner,
   author    = {Pathak, Dhrubajyoti  and  Nandi, Sukumar  and  Sarmah, Priyankoo},
-   booktitle = {Proceedings of the Language Resources and Evaluation Conference},
+  booktitle = {Proceedings of the Language Resources and Evaluation Conference},
   month  = {June},
   year = {2022},
   address = {Marseille, France},
   publisher = {European Language Resources Association},
   pages= {6571--6577},
   url       = {https://aclanthology.org/2022.lrec-1.706}
-  }
+  }   
+ 
+
+```
+
