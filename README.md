@@ -49,7 +49,7 @@ print(sentence3.to_tagged_string())
 
 ```
 
-### If you use our code or dataset, please cite [this paper][http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.706.pdf]: 
+### If you use our code or dataset, please cite [this paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.706.pdf): 
 
 ```
   @InProceedings{pathak2022asner,
