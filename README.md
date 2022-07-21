@@ -52,7 +52,7 @@ print(sentence3.to_tagged_string())
 ### If you use our code or dataset, please cite [this paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.706.pdf): 
 
 ```
-  @InProceedings{pathak2022asner,
+  @article{pathak2022asner,
   author    = {Pathak, Dhrubajyoti  and  Nandi, Sukumar  and  Sarmah, Priyankoo},
   booktitle = {Proceedings of the Language Resources and Evaluation Conference},
   month  = {June},
